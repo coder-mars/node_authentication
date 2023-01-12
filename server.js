@@ -59,11 +59,7 @@ app.use(passport.session());
 // 	}
 // }));
 
-//Connect flash
-/* 
-
-*/
-app.use(connectFlash());
+// connectFlash
 /* 
 1. connectFlash is a module for Node.js . For example,
 app.use(connectFlash());
@@ -72,6 +68,8 @@ app.use(connectFlash());
 4. express is needed connect-flash library to run
 5. Flash messages are stored in the session. First, setup sessions as usual by enabling cookieParser and session middleware. Then, use flash middleware provided by connect-flash. 
 */
+app.use(connectFlash());
+
 //Global vars
 app.use(function (req, res, next) {
 	res.locals.success_msg = req.flash('success_msg');
