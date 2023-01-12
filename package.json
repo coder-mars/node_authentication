@@ -1,24 +1,24 @@
 {
-	"name": "node_authentication",
-	"version": "1.0.0",
-	"private": "true",
+	"name":"node_authentication",
+	"version":"1.0.0",
+	"private":"true",
 	"description": "Node authentication with nodejs, expressjs, handlebarsjs and mongodb",
-	"dependencies": {
+	"dependencies":{
 		"bcryptjs": "*",
-		"body-parser": "*",
+		"body-parser":"*",
 		"connect-flash": "*",
 		"cookie-parser": "*",
-		"express": "*",
-		"express-handlebars": "*",
-		"express-messages": "*",
-		"express-session": "*",
-		"express-validator": "*",
-		"mongodb": "*",
-		"mongojs": "*",
-		"mongoose": "*",
-		"passport": "*",
-		"passport-http": "*",
-		"passport-local": "*"
+		"express":"*",
+		"express-handlebars":"*",
+		"express-messages":"*",
+		"express-session":"*",
+		"express-validator":"*",
+		"mongodb":"*",
+		"mongojs":"*",
+		"mongoose":"*",
+		"passport":"*",
+		"passport-http":"*",
+		"passport-local":"*"
 	},
 	"author": "Sajib Sikder"
 }
